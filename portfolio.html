@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Nanum+Pen+Script&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="portfolioStyle.css">
+  <title>Yugant Patel</title>
+</head>
+
+<body>
+  <div class="headerBg wrapper">
+    <nav role="navigation">
+      <div class="menu-toggle"><span>Portfolio</span></div>
+      <ul class="menu">
+        <li>
+          <a href="portfolioIndex.html" class="link"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="#aboutMe" class="link"><span>About Me</span></a>
+        </li>
+        <li>
+          <a href="#contact" class="link"><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+    <header data-aos="fade-up" data-aos-once="true">
+      <div class="headerText">
+        <h1>Hello! <span>I'm Yugant.</span></h1>
+        <p>
+          Computer Programmer and Analyst <span> Web developer </span> and
+          <span>Software Developer</span>
+          I am an enthusiastic and fast learner who is always ready to work something out of the box and has flexibility and adaptability when working in a new environment or new technology.
+        </p>
+        <p>
+          Currently seeking for 
+          <span>Internship/Coop</span>
+  
+          as a Software Developer/ Web Developer. 👩🏻‍💻
+        </p>
+        <!-- <p><span class="smallerText">Psst! My portfolio is a WIP so viewing on desktop is the best for now!</span></p> -->
+      </div>
+      <div class="imageContainer">
+        <img src="depositphotos_648034010-stock-photo-hacker-attack-web-security-concept.jpeg" alt="" />
+      </div>
+      <p class="scrollDownText"><i class="fas fa-angle-down"></i></p>
+    </header>
+  </div>
+  <main>
+    <section class="aboutMe" id="aboutMe">
+      <div class="wrapper" data-aos="fade-up" data-aos-once="true">
+        <div class="aboutMeTop">
+          <div class="aboutMeBio">
+            <h2>About Me</h2>
+            <p>
+              Currently, I am pursuing a Computer Programming and Analysis (Co-op) program at Georgian College, where I have gained valuable experience in web development, object-oriented programming, Arduino, and cloud computing. Additionally, I have completed certifications in HTML, CSS, and JS, Database Essential Training, Learning Python, and PHP Essential Training.
+            </p>
+            <p>
+              In terms of technical skills, I am proficient in software applications such as Tinkercad, Microsoft Products, Adobe Acrobat, Cisco Packet Tracer, VS Code, IntelliJ IDEA, Scene Builder, and MySQL Workbench. I have expertise in operating systems such as MacOS and Windows, and I have programming skills in Java, JavaScript, Python, SQL, and PHP. I am also proficient in HTML and CSS.
+            </p>
+            <p>
+              My project experience includes developing a Spreadsheet to Word Converter program using Python, which allows users to access data from a spreadsheet and write it into a Word file. I have implemented exceptional handling and validation to ensure the accuracy of the data. Additionally, I developed a Spaceship Game using Java that simulates a space adventure where the player navigates through obstacles and enemies to reach the end goal. I implemented features such as game physics and user interface.
+            </p>
+          </div>
+          <div class="aboutMeImage">
+            <img src="MyImage2.jpeg" alt="" />
+          </div>
+        </div>
+        <div data-aos="fade-up" data-aos-once="true">
+          <h2>Experience with 💻</h2>
+          <ul class="skills">
+            <li><img src="Unknown.png" alt="" />HTML5</li>
+            <li><img src="CSS3_logo_and_wordmark.svg.png" alt="" />CSS3</li>
+            <li><img src="unnamed.png" alt="" /> JavaScript</li>
+            <li><img src="Unknown1.jpeg" alt="" />Python</li>
+            <li><img src="Java_programming_language_logo.svg.png" alt="" />Java</li>
+            <li><img src="Unknown2.png" alt="" />Microsoft Azure</li>
+            <li><img src="Unknown3.jpeg" alt="" />ASP.net MVC </li>
+            <li><img src="Unknown4.png" alt="" />PHP</li>
+            <li><img src="Unknown5.png" alt="" />MySQL</li>
+        
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section class="contact" data-aos="fade-up" data-aos-once="true" id="contact">
+    <div class="contactContainer wrapper">
+      <div class="contactInformation">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to contact me for any inquiries. <br />
+        </p>
+        <ul class="socialIcons">
+          <li>
+            <a href="https://www.linkedin.com/in/yugant-patel-b11008266/"><i class="fab fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="https://github.com
+            "><i class="fab fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="contactForm">
+        <form action='thankyou/thanks' method='POST' name='contact'><input type='hidden' name='form-name' value='contact' />
+          <label for="name" class="visuallyHidden">name</label>
+          <input type="text" name="name" id="name" placeholder="name" autocomplete="off" required />
+          <label class="visuallyHidden" for="email">email</label>
+          <input type="email" name="email" id="email" placeholder="email" required />
+          <label class="visuallyHidden" for="message" autocomplete="off">message</label>
+          <textarea name="message" id="message" placeholder="message" required=""></textarea>
+          <div class="submit-container">
+            <button class="send" type="submit">send message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Developed and designed by Yugant Patel</p>
+  </footer>
+</body>
+</html>
